@@ -47,7 +47,7 @@ body {
 
 /* HEADER */
 .jumbotron {
-  background: url("../images/cayetano-gil-rguHxZmOF5U-unsplash.jpg");
+  background: url("");
   background-position: center;
   height: 99vh;
   padding-top: 1em;
@@ -77,7 +77,7 @@ body {
     -webkit-animation:colorchange 15s infinite alternate;
 }
 
-/* BOUNCING ARROW -idk how this works but it just does... */
+/* BOUNCING ARROW */
 .arrow a {
   color: #FFFEFD;
   -webkit-animation:colorchange 3s infinite alternate;
