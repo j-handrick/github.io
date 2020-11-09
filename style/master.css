@@ -7,6 +7,7 @@ body {
 .navbar {
   background-color: #0f0c0a;
   opacity: 95%;
+  
 }
 .nav-link {
   font-family: 'montserrat', serif;
@@ -47,7 +48,7 @@ body {
 
 /* HEADER */
 .jumbotron {
-  background: url("");
+  background: url("../images/cayetano-gil-rguHxZmOF5U-unsplash.jpg");
   background-position: center;
   height: 99vh;
   padding-top: 1em;
@@ -60,6 +61,7 @@ body {
 
 .jumbotron h1 {
   text-align: center;
+  font-size: 300%;
   margin-top: 3.5em;
   font-family: "Playfair Display", serif;
   cursor: none;
