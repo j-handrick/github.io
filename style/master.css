@@ -63,11 +63,10 @@ body {
 
 .jumbotron h1 {
   text-align: center;
-  margin-top: 3.5em;
+  margin-top: 2em;
   font-family: "Playfair Display", serif;
   cursor: none;
-  color: #tan;
-  -webkit-animation:colorchange 30s infinite alternate;
+  color: #3E2A14;
 }
 
 .jumbotron p {
@@ -77,7 +76,7 @@ body {
   cursor: arrow;
 }
 .jumbotron span {
-    -webkit-animation:colorchange 15s infinite alternate;
+    -webkit-animation:colorchange 45s infinite alternate;
 }
 
 /* BOUNCING ARROW */
@@ -121,32 +120,93 @@ body {
 }
 
 /*SKILLS SECTION*/
-
-
-
-
-/*PAGE ANIMATIONS*/
-#projectCards {
-  text-align: center;
-  font-family: "Playfair display", sans-serif;
-  font-weight: 200;
-  color: #FFFEFD;
-  cursor: arrow;
+/*PROGRESS BAR*/
+.progress{
+    height: 5px;
+    margin-top: 10px;
+}
+.progress-bar-A {
+    width: 0;
+    background:#173B00;
+    -webkit-animation: progress 2.5s ease-in-out forwards;
+          animation: progress 2.5s ease-in-out forwards;
+}
+.progress-bar-B {
+    width: 0;
+    background:#EBD6C9;
+    -webkit-animation: progress 2.5s ease-in-out forwards;
+          animation: progress 2.5s ease-in-out forwards;
+}
+.progress-bar-C {
+    width: 0;
+    background:#C15955;
+    -webkit-animation: progress 2.5s ease-in-out forwards;
+          animation: progress 2.5s ease-in-out forwards;
+}
+.progress-bar-D {
+    width: 0;
+    background:#6088B2;
+    -webkit-animation: progress 2.5s ease-in-out forwards;
+          animation: progress 2.5s ease-in-out forwards;
+}
+.progress-bar .title {
+  opacity: 0;
+  -webkit-animation: show 0.35s forwards ease-in-out 0.5s;
+          animation: show 0.35s forwards ease-in-out 0.5s;
 }
 
-#projectCards:hover {
-  -webkit-animation:colorchange 10s infinite alternate;
-  cursor: none;
+@-webkit-keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
-.container-fluid {
-  display: flex;
-  width: 100vw;
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-webkit-keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.skill{
+    width: 100%;
+    padding: 1em;
+    padding-top: 5em;
+}
+.skill span{
+    color: #939393;
+    font-family: 'arial';
+
+}
+.skill .progressWrap{
+    padding: 1.2em;
 }
 
 
+/*PROJECT CARDS*/
 .cardContainer {
-  display: flex;
+  padding-left: 5em;
+  padding-right: 5em;
   text-align: center;
   justify-content: center;
   border-radius: 10px;
@@ -167,9 +227,7 @@ body {
 .cardContainer .RFS:hover {
   color: lightblue;
 }
-.cardContainer img {
-  height: 50%;
-}
+
 .card-body {
   color: #0f0c0a;
   background-color: #FFFEFD;
@@ -178,7 +236,6 @@ body {
 .card-title {
   color: #0f0c0a;
   font-family: "Playfair Display", serif;
-  margin-bottom: 2em;
 }
 
 .card-subtitle {
