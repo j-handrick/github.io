@@ -8,5 +8,6 @@ console.log("addActive")
     $("#dissapear").removeClass('active');
   console.log("removeActive")
 }
-
 });
+
+//LOADING SKILL BARS
