@@ -63,7 +63,7 @@ body {
 
 .jumbotron h1 {
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1em;
   font-family: "Playfair Display", serif;
   cursor: none;
   color: #3E2A14;
@@ -76,7 +76,7 @@ body {
   cursor: arrow;
 }
 .jumbotron span {
-    -webkit-animation:colorchange 45s infinite alternate;
+    -webkit-animation:colorchange 30s infinite alternate;
 }
 
 /* BOUNCING ARROW */
@@ -297,7 +297,7 @@ body {
         color: #C15955;
       }
       40% {
-        color: #F48725;
+        color: #FDDEC3;
       }
       50% {
         color: #793884;
@@ -315,6 +315,6 @@ body {
         color: #696969;
       }
       100% {
-        color: #FDDEC3;
+        color: #793884;
       }
     }
