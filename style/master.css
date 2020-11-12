@@ -46,9 +46,22 @@ body {
   background-color: #49A0B5;
   border-radius: 10px;
 }
+/* Navbar dissapear */
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+   transform:translateY(0); transition: all 0.3s ease-in-out;
+}
 
 /* HEADER */
-
 .jumbotron {
   background: none;
   background-position: center;
@@ -120,6 +133,11 @@ body {
 }
 
 /*SKILLS SECTION*/
+
+
+
+
+
 /*PROGRESS BAR*/
 .progress{
     height: 5px;
@@ -196,7 +214,6 @@ body {
 .skill span{
     color: #939393;
     font-family: 'arial';
-
 }
 .skill .progressWrap{
     padding: 1.2em;
@@ -204,33 +221,18 @@ body {
 
 
 /*PROJECT CARDS*/
-.cardContainer {
-  padding-left: 5em;
-  padding-right: 5em;
-  text-align: center;
-  justify-content: center;
-  border-radius: 10px;
-  margin-bottom: 15px;
-}
-.cardContainer:hover {
-  border: .1px dotted #FFFEFD;
-}
-.cardContainer a {
-  text-decoration: none;
-}
-.cardContainer .HP:hover {
+.HP:hover {
   color: green;
 }
-.cardContainer .OA:hover {
+.OA:hover {
   color: orange;
 }
-.cardContainer .RFS:hover {
+.RFS:hover {
   color: lightblue;
 }
-
 .card-body {
   color: #0f0c0a;
-  background-color: #FFFEFD;
+  background-color: none;
   align-content: space-between;
 }
 .card-title {
@@ -238,14 +240,28 @@ body {
   font-family: "Playfair Display", serif;
 }
 
-.card-subtitle {
-  font-family: 'montserrat', serif;
-  font-weight: 400;
-}
-
 .card-text {
   font-family: 'montserrat', serif;
   font-weight: 200;
+}
+
+/*FOOTER 2*/
+#button-addon1 {
+  color: #ffc371;
+}
+
+i {
+  color: #ffc371;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
 }
 
 /* FOOTER */
