@@ -1,58 +1,108 @@
 body {
-  background: #fffaef;
-
+  background: #FFFEFD;
+  scroll-behavior: smooth;
 }
+
 /* NAVIGATION */
 .navbar {
-  background-color: #fffaef;
+  background-color: #0f0c0a;
+  opacity: 95%;
+
 }
 .nav-link {
-    font-family: 'montserrat', serif;
-    font-weight: 200;
+  font-family: 'montserrat', serif;
+  font-weight: 200;
+  color: #FFFEFD;
+}
+
+.name:hover {
+  color: #49A0B5;
+}
+.nav-link:hover {
+  color: #49A0B5;
 }
 .navbar-brand {
   font-family: 'Playfair display';
+  color: #FFFEFD;
+}
+.dropdown-menu a {
+    background-color: #0f0c0a;
+    color: #FFFEFD;
+    font-family: 'montserrat', serif;
+    font-weight: 200;
 }
 .dropdown-menu a:hover {
   color: #49A0B5;
-  background-color: #fffaef;
-}
-.linkedIn:hover {
-   background-color: #49A0B5; border-radius: 5px;
-}
-.instagram:hover {
-   background-color: #49A0B5; border-radius: 10px;
+  background-color: #0f0c0a;
 }
 
-.prototype--desktop {
-  width: 75vw;
+.linkedIn:hover {
+  background-color: #49A0B5;
+  border-radius: 5px;
 }
-.prototype--mobiile {
-  height: 95vh;
+
+.instagram:hover {
+  background-color: #49A0B5;
+  border-radius: 10px;
+}
+/* Navbar dissapear */
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+   transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+/* FOOTER */
+#button-addon1 {
+  color: #ffc371;
+}
+
+i {
+  color: #ffc371;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
 }
 
 /* FOOTER */
-footer nav {
-  display: flex;
-  width: 100vw;
+.contact {
+  color: #0f0c0a;
 }
-footer span {
-  font-style: italic;
-  font-family: "Playfair Display", serif;
+.contact:hover {
+  text-decoration: none;
+  color: #0f0c0a;
+  cursor: none;
 }
-footer span:hover {
-  color: #fffaef;
-  cursor: auto;
-}
-footer a {
-  color: #fffaef;
+/* FOOTER_CTA */
+.CTA {
+  color: #0f0c0a;
   font-style: regular;
   font-weight: 100;
-  font-family: "montserrat", serif;
-  margin-left: 1em;
+  font-family: "montserrat", sans-serif;
+  -webkit-animation:colorchange 10s infinite alternate;
 }
-footer .CTA:hover {
+.CTA:hover {
   color: #49A0B5;
   cursor: pointer;
-    text-decoration: none;
+  text-decoration: none;
+  -webkit-animation: none;
 }

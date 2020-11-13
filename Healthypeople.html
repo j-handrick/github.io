@@ -8,21 +8,21 @@
   </head>
   <body>
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow">
+    <nav role="navigation" class="navbar smart-scroll navbar-dark shadow-sm sticky-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="index.html">Jake Handrick</a>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item dropdown">
+        <ul class="navbar-nav justify-content-center container-fluid vh-100">
+          <li class="nav-item dropdown justify-content-center">
             <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               My Work <span class="sr-only">(current)</span></a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="font-family: 'montserrat'; background-color: #fffaef;border: none;">
-            <a class="dropdown-item" href="Healthypeople.html">Healthypeople.gov</a>
-            <a class="dropdown-item" href="OpenArms.html">Open Arms of MN</a>
-            <a class="dropdown-item" href="RFS.html">Reflection Sciences</a>
-          </div>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="font-family: 'montserrat'; background-color: #0f0c0a; border: none;">
+              <a class="dropdown-item" href="Healthypeople.html">Healthypeople.gov</a>
+              <a class="dropdown-item" href="OpenArms.html">Open Arms of MN</a>
+              <a class="dropdown-item" href="RFS.html">Reflection Sciences</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Me</a>
@@ -30,48 +30,140 @@
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Get in touch</a>
           </li>
+          <li class="nav-item" style="margin-top: 1.2em;">
+            <a href="https://www.linkedin.com/in/jake-handrick-609809138/">
+              <img class="linkedIn" style="height: 2em; margin-right: 5px;" src="images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/j.handrick/">
+              <img class="instagram" style="height: 2em; margin-left: 5px;" src="images/Instagram.png" alt="Instagram">
+            </a>
+          </li>
         </ul>
-        <div class="inline my-2 my-lg-0">
-          <a href="https://www.linkedin.com/in/jake-handrick-609809138/">
-            <img class="linkedIn" style="height: 2em;"src="images/linkedin.png" alt="LinkedIn">
-          </a>
-          <a href="https://www.instagram.com/j.handrick/">
-            <img class="instagram" style="height: 2em;"src="images/instagram-logo.png" alt="Instagram">
-          </a>
-        </div>
+
       </div>
     </nav>
-  <!-- MAIN CONTENT -->
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Case Study: Healthypeople.gov</h1>
-      <h2>UI/UX Web Redesign</h2>
-      <p class="lead">This website was f*cked.  The flow was awful, you could not easily find information on anything. Frankly, it was hard to even know what the website was about.  My team of 3 did a complete UX/UI overhaul on Healthypeople.gov, so that future visitors might have a more streamlined and intuitive experience.</p>
-    </div>
-  </div>
 
-  <div class="prototype--container">
+  <!-- MAIN CONTENT -->
+  <section class="hero bg-cover bg-center mt-5" id="hero" style="background: url(#)">
+    <div class="container py-5 my-5 index-forward">
+      <div class="row">
+        <div class="col-md-8 text-dark">
+          <h2 class="h4 text-primary font-weight-normal mb-0">Case Study:</h2>
+          <h1 class="text-uppercase text-xl mb-0">HealthyPeople<span class="text-primary">.gov</span></h1>
+          <p class="text-shadow">This website was f*cked.  The flow was awful, and you couldn't easily find information on anything, even if you knew what the website was about. Frankly, it was hard to even know what the website was about.  My team of 3 did a complete UX/UI overhaul on HealthyPeople.gov so that future visitors might have a more streamlined and intuitive experience.</p>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-group border-0" style="cursor: pointer;">
+    <a href="#WhatWhy" class="h4 list-group-item list-group-item-action border-0"><span class="text-primary mr-2">01</span>What & Why</a>
+    <a href="#WhatWhy" class="h4 list-group-item list-group-item-action border-0"><span class="text-primary mr-2">02</span>The Brief</a>
+    <a href="#WhatWhy" class="h4 list-group-item list-group-item-action border-0"><span class="text-primary mr-2">03</span>Problem Statement</a>
+    <a href="#WhatWhy" class="h4 list-group-item list-group-item-action border-0"><span class="text-primary mr-2">04</span>Research</a>
+    <a href="#WhatWhy" class="h4 list-group-item list-group-item-action border-0"><span class="text-primary mr-2">05</span>Wireframes</a>
+    <a href="#WhatWhy" class="h4 list-group-item list-group-item-action border-0"><span class="text-primary mr-2">06</span>Responsive Protoypes</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="WhatWhy">
+    <div class="container">
+      <div class="row">
+      <header class="col-md-5 col-sm-12">
+        <p class="font-weight-bold text-primary text-uppercase letter-spacing-3">About Us</p>
+        <h2 class="text-uppercase lined">What</h2>
+        <p class="text-shadow">This website was f*cked.  The flow was awful, and you couldn't easily find information on anything, even if you knew what the website was about. Frankly, it was hard to even know what the website was about.  My team of 3 did a complete UX/UI overhaul on HealthyPeople.gov so that future visitors might have a more streamlined and intuitive experience.</p>
+        <!-- Image with Modal -->
+        <a href="#" id="pop">
+            <img id="imageresource" src="images/HealthyPeople.gov/BrandWords.png" style="width: 400px; height: 264px;"><br>
+            Click to Enlarge
+        </a>
+
+        <!-- Creates the bootstrap modal where the image will appear -->
+        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+              </div>
+              <div class="modal-body">
+                <img src="" id="imagepreview" style="width: 100%; height: auto;" >
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </header>
+      <div class="col-md-2 col-sm-12"></div>
+      <header class="col-md-5 col-sm-12">
+        <p class="font-weight-bold text-primary text-uppercase letter-spacing-3">Context</p>
+        <h2 class="text-uppercase lined">Why</h2>
+        <p class="text-shadow">This website was f*cked.  The flow was awful, and you couldn't easily find information on anything, even if you knew what the website was about. Frankly, it was hard to even know what the website was about.  My team of 3 did a complete UX/UI overhaul on HealthyPeople.gov so that future visitors might have a more streamlined and intuitive experience.</p>
+      </header>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-- NOTE: LIVE PROTOTYPES  <div class="prototype--container">
 <iframe class="prototype--desktop" width="1920" height="1040" src="https://xd.adobe.com/embed/6c39497b-78c7-46f3-b331-0703fabe244d-396a/?fullscreen" frameborder="0" allowfullscreen></iframe>
 <iframe class="prototype--mobile" width="375" height="812" src="https://xd.adobe.com/embed/9e868c09-9e25-490d-923c-af3c1c34d29d-cbd5/?fullscreen" frameborder="0" allowfullscreen></iframe>
-  </div>
+  </div>-->
 
   <!-- FOOTER-->
-  <footer>
-    <nav class="navbar navbar-expand-lg shadow-sm bg-dark d-flex justify-content-between">
-      <a class="navbar-brand" href="#">
-        <span class="navbar-text quote">
-          "If you want to go fast, go alone. If you want to go far, go together."
-        </span>
-        <a href="contact.html"class="navbar-text CTA">
-          Let's go far together, quickly.
-        </a>
-      </a>
-    </nav>
-  </footer>
-
+  <footer class="bg-white">
+     <div class="container py-5">
+       <div class="row py-4">
+         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+           <p class="font-italic">"If you want to go fast, go alone. If you want to go far, go together."</p>
+           <p class="font-italic text-muted">jake.handrick@gmail.com</p>
+           <p class="font-italic text-muted">(612)-516-7376</p>
+         </div>
+         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+           <h6 class="text-uppercase font-weight-bold mb-4">Web Projects</h6>
+           <ul class="list-unstyled mb-0">
+             <li class="mb-2"><a href="#" class="text-muted">HealthyPeople</a></li>
+             <li class="mb-2"><a href="#" class="text-muted">Open Arms of MN</a></li>
+             <li class="mb-2"><a href="#" class="text-muted">Reflection Sciences</a></li>
+             <li class="mb-2"><a href="#" class="text-muted">World-Newspapers</a></li>
+           </ul>
+         </div>
+         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+           <h6 class="text-uppercase font-weight-bold mb-4">Other</h6>
+           <ul class="list-unstyled mb-0">
+             <li class="mb-2"><a href="#" class="text-muted">Resume</a></li>
+             <li class="mb-2"><a href="#" class="text-muted">About Me</a></li>
+           </ul>
+         </div>
+         <div class="col-lg-4 col-md-6 mb-lg-0">
+           <h6 class="text-uppercase font-weight-bold mb-4">Get in Touch</h6>
+           <p class="text-muted mb-4">Don't be afraid to reach out! I am always happy to chat, especially about web design.  Willing to trade web services for dance lessons.</p>
+           <div class="p-1 rounded border">
+             <div class="input-group">
+               <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+               <div class="input-group-append">
+                 <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
   <!--  SCRIPT TAGS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src='js/js.js'></script>
   </body>
 </html>
