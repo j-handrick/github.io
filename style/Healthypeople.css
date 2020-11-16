@@ -2,15 +2,42 @@ body {
   background: #FFFEFD;
   scroll-behavior: smooth;
 }
+
 .text-descrip {
-  color: #49A0B5;
+  color: #008E06;
   font-family: "Montserrat", sans-serif;
 }
-.text-title {
+.text-caption {
+  color: #008E06;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 150;
+}
+
+.text-title-l{
+  color: #074973;
+  font-family: "Playfair Display", serif;
+
+}
+.text-para-l {
+  color: #0f0c0a;
+  font-family: "Montserrat", sans-serif;
+}
+.text-quote {
+  color: #F2E1C2;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1.6em;
+}
+
+.text-title-d {
+  color: #FFFEFD;
   font-family: "Playfair Display", serif;
 }
-.text-para {
-font-family: "Montserrat", sans-serif;
+.text-para-d {
+  color: #F2E1C2;
+  font-family: "Montserrat", sans-serif;
 }
 
 
