@@ -2,6 +2,17 @@ body {
   background: #FFFEFD;
   scroll-behavior: smooth;
 }
+.text-descrip {
+  color: #49A0B5;
+  font-family: "Montserrat", sans-serif;
+}
+.text-title {
+  font-family: "Playfair Display", serif;
+}
+.text-para {
+font-family: "Montserrat", sans-serif;
+}
+
 
 /* NAVIGATION */
 .navbar {
