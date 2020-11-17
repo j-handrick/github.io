@@ -39,3 +39,5 @@ console.log("document is ready");
 );
 // document ready
 });
+
+//RESUME MODAL

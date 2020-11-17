@@ -279,14 +279,9 @@ i {
   font-style: regular;
   font-weight: 100;
   font-family: "montserrat", sans-serif;
-  -webkit-animation:colorchange 10s infinite alternate;
+  -webkit-animation:colorchange 30s infinite alternate;
 }
-.CTA:hover {
-  color: #49A0B5;
-  cursor: pointer;
-  text-decoration: none;
-  -webkit-animation: none;
-}
+
 
 /* MEDIA QUERIES */
 @media (min-width: 540px max-width: 992px) {

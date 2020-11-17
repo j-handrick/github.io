@@ -33,3 +33,23 @@ $("#pop4").on("click", function() {
   $('#imagepreview4').attr('src', $('#imageresource4').attr('src')); // here asign the image to the modal when the user click the enlarge link
   $('#imagemodal4').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
 });
+//Image Modal: 5
+$("#pop5").on("click", function() {
+  $('#imagepreview5').attr('src', $('#imageresource5').attr('src')); // here asign the image to the modal when the user click the enlarge link
+  $('#imagemodal5').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+});
+//Image Modal: 6
+$("#pop4").on("click", function() {
+  $('#imagepreview6').attr('src', $('#imageresource6').attr('src')); // here asign the image to the modal when the user click the enlarge link
+  $('#imagemodal6').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+});
+//Image Modal: 7
+$("#pop4").on("click", function() {
+  $('#imagepreview7').attr('src', $('#imageresource7').attr('src')); // here asign the image to the modal when the user click the enlarge link
+  $('#imagemodal7').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+});
+//Image Modal: 8
+$("#pop4").on("click", function() {
+  $('#imagepreview8').attr('src', $('#imageresource8').attr('src')); // here asign the image to the modal when the user click the enlarge link
+  $('#imagemodal8').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+});
