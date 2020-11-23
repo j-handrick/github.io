@@ -167,6 +167,19 @@ body {
     -webkit-animation: progress 2.5s ease-in-out forwards;
           animation: progress 2.5s ease-in-out forwards;
 }
+.progress-bar-E {
+    width: 0;
+    background:#696969;
+    -webkit-animation: progress 2.5s ease-in-out forwards;
+          animation: progress 2.5s ease-in-out forwards;
+}
+.progress-bar-F {
+    width: 0;
+    background:#793884;
+    -webkit-animation: progress 2.5s ease-in-out forwards;
+          animation: progress 2.5s ease-in-out forwards;
+}
+
 .progress-bar .title {
   opacity: 0;
   -webkit-animation: show 0.35s forwards ease-in-out 0.5s;
