@@ -6,10 +6,12 @@ body {
 .text-descrip {
   color: #FDFAEE;
   font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
 }
 .text-descrip-d {
   color: #0f0c0a;
   font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
 }
 .text-caption {
   color: #F8CE46;
