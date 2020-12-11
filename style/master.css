@@ -66,10 +66,9 @@ body {
   background: none;
   background-position: center;
   width: 100%;
-  height: 99vh;
+  height: auto;
   padding-top: 1em;
   padding-bottom: 1em;
-  margin-bottom: 4em;
   background-size: cover;
   border-radius: 0;
 }
@@ -82,23 +81,29 @@ body {
   color: #3E2A14;
 }
 
-.jumbotron p {
-  text-align: center;
-  font-family: 'montserrat', serif;
-  color: #0f0c0a;
-  cursor: arrow;
-}
 .jumbotron span {
+  animation: colorchange 30s infinite alternate;
     -webkit-animation:colorchange 30s infinite alternate;
 }
 
-/* Skill Bars */
-.skill-bars {
- 
+/* My Description */
+.skill-section {
+  height: 75vh;
 }
+.me-description {
+  text-align: center;
+  margin-top: 1em;
+  font-family: "Playfair Display", serif;
+  color: #3E2A14;
+  line-height: 2em;
+
+}
+
+/* Skill Bars */
 
 /* BOUNCING ARROW */
 .arrow a {
+  z-index: 10000000;
   color: #FFFEFD;
   -webkit-animation:colorchange 3s infinite alternate;
 }
@@ -243,6 +248,7 @@ body {
   color: lightblue;
 }
 .card-body {
+  z-index: 10;
   color: #0f0c0a;
   background-color: none;
   align-content: space-between;
