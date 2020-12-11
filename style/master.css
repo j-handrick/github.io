@@ -1,6 +1,6 @@
 
 body {
-  background: #FFFEFD;
+  background: linear-gradient(#fffefd 5%,#fdf7f0  );
   scroll-behavior: smooth;
 }
 
@@ -92,6 +92,11 @@ body {
     -webkit-animation:colorchange 30s infinite alternate;
 }
 
+/* Skill Bars */
+.skill-bars {
+ 
+}
+
 /* BOUNCING ARROW */
 .arrow a {
   color: #FFFEFD;
@@ -131,12 +136,6 @@ body {
     transform: translateY(-50%);
   }
 }
-
-/*SKILLS SECTION*/
-
-
-
-
 
 /*PROGRESS BAR*/
 .progress{
@@ -247,6 +246,7 @@ body {
   color: #0f0c0a;
   background-color: none;
   align-content: space-between;
+
 }
 .card-title {
   color: #0f0c0a;
@@ -278,6 +278,9 @@ i {
 }
 
 /* FOOTER */
+footer {
+  background: linear-gradient(#fdf7f0, #fffefd );
+}
 .contact {
   color: #0f0c0a;
 }
