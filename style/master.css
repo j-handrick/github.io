@@ -62,39 +62,16 @@ body {
 }
 
 /* HEADER */
-.jumbotron {
-  background: none;
-  background-position: center;
-  width: 100%;
-  
-  padding-top: 1em;
-  padding-bottom: 1em;
-  background-size: cover;
-  border-radius: 0;
-}
 
-.jumbotron h1 {
-  text-align: center;
-  margin-top: 1em;
-  font-family: "Playfair Display", serif;
-  cursor: none;
-  color: #3E2A14;
-}
-
-.jumbotron span {
-  animation: colorchange 30s infinite alternate;
-    -webkit-animation:colorchange 30s infinite alternate;
-}
-
-/* My Description */
 .skill-section {
   height: 95vh;
-
+  display: flex;
+  justify-content: space-between;
 }
+
 .me-description {
   text-align: center;
   font-weight: 200;
-  margin-top: 1em;
   font-family: "Playfair Display", serif;
   color: #3E2A14;
   line-height: 2em;
