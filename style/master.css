@@ -225,10 +225,14 @@ body {
 }
 
 /* WEB SKILLS */
-.web-skills h2 {
+.section-header {
   font-family: "Playfair Display", serif;
   font-weight: 600;
 }
+
+/*
+.web-skills {
+} */
 
 .web-skills h3 {
   font-family: "Montserrat", "sans serif";
