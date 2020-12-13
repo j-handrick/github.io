@@ -73,11 +73,12 @@ body {
 .me-description {
   text-align: center;
   font-weight: 200;
-  font-family: "Playfair Display", serif;
+  font-family: 'montserrat', "sans serif";
   color: #3E2A14;
   line-height: 2em;
 }
 .me-description span {
+  font-family: "Playfair Display", serif;
   font-weight: 600;
   animation: colorchange 30s infinite alternate;
   -webkit-animation:colorchange 30s infinite alternate
@@ -163,11 +164,16 @@ body {
 }
 .progress-bar-F {
     width: 0;
-    background:#793884;
+    background:#ffc371;
     -webkit-animation: progress 2.5s ease-in-out forwards;
           animation: progress 2.5s ease-in-out forwards;
 }
-
+.progress-bar-G {
+  width: 0;
+  background: #793884;
+  -webkit-animation: progress 2.5s ease-in-out forwards;
+        animation: progress 2.5s ease-in-out forwards;
+}
 .progress-bar .title {
   opacity: 0;
   -webkit-animation: show 0.35s forwards ease-in-out 0.5s;
@@ -244,7 +250,7 @@ body {
 }
 
 .card-text {
-  font-family: 'montserrat', serif;
+  font-family: 'montserrat', "sans serif";
   font-weight: 200;
 }
 
