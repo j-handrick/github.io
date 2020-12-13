@@ -84,8 +84,6 @@ body {
   -webkit-animation:colorchange 30s infinite alternate
 }
 
-/* Skill Bars */
-
 /* BOUNCING ARROW */
 .arrow a {
   z-index: 10000000;
@@ -226,6 +224,18 @@ body {
     padding: 1.2em;
 }
 
+/* WEB SKILLS */
+.web-skills h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.web-skills h3 {
+  font-family: "Montserrat", "sans serif";
+  font-weight: 200;
+  -webkit-animation:colorchange 30s infinite alternate;
+  animation: colorchange 30s infinite alternate;
+}
 
 /*PROJECT CARDS*/
 .HP:hover {
@@ -292,6 +302,7 @@ footer {
   font-weight: 100;
   font-family: "montserrat", sans-serif;
   -webkit-animation:colorchange 30s infinite alternate;
+  animation: colorchange 30s infinite alternate;
 }
 
 
