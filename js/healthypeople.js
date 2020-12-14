@@ -53,3 +53,31 @@ $("#pop4").on("click", function() {
   $('#imagepreview8').attr('src', $('#imageresource8').attr('src')); // here asign the image to the modal when the user click the enlarge link
   $('#imagemodal8').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
 });
+
+//MODULE SLIDE-INS 
+(function ($) {
+  $.fn.visible = function(partial) {
+      
+    var $t            = $(this),
+        $w            = $(window),
+        viewTop       = $w.scrollTop(),
+        viewBottom    = viewTop + $w.height(),
+        _top          = $t.offset().top,
+        _bottom       = _top + $t.height(),
+        compareTop    = partial === true ? _bottom : _top,
+        compareBottom = partial === true ? _top : _bottom;
+  
+  return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+  };
+  })(jQuery);
+  
+  $(window).scroll(function(event) {
+    
+    $(".module").each(function(i, el) {
+      var el = $(el);
+      if (el.visible(true)) {
+        el.addClass("come-in"); 
+      } 
+    });
+    
+  });

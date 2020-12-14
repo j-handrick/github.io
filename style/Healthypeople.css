@@ -98,9 +98,6 @@ body {
 }
 
 
-
-
-
 /* FOOTER */
 #button-addon1 {
   color: #ffc371;
@@ -136,10 +133,25 @@ i {
   font-weight: 100;
   font-family: "montserrat", sans-serif;
   -webkit-animation:colorchange 10s infinite alternate;
+  animation: colorchange 10s infinite alternate;
 }
 .CTA:hover {
   color: #49A0B5;
   cursor: pointer;
   text-decoration: none;
   -webkit-animation: none;
+  animation: colorchange 10s infinite alternate;
+}
+
+
+ /* MODULE SLIDE-IN */
+ .come-in {
+  transform: translateY(300px);
+  animation: come-in 1s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s; /* So they look staggered */
+}
+@keyframes come-in {
+  to { transform: translateY(0); }
 }
