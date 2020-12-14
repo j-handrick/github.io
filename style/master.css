@@ -83,7 +83,7 @@ body {
 .multicolor {
   animation: colorchange 30s infinite alternate;
   -webkit-animation:colorchange 30s infinite alternate;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #016e2b7e 50%);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #01491d7e 50%);
 }
 
 
@@ -391,15 +391,16 @@ footer {
       }
     }
 
-    /* MODULE SLIDE-IN */
-    .come-in {
-      transform: translateY(150px);
-      animation: come-in 0.8s ease forwards;
-    }
-    .come-in:nth-child(odd) {
+ /* MODULE SLIDE-IN */
+.come-in {
+      transform: translateY(300px);
+      animation: come-in 1s ease forwards;
+}
+.come-in:nth-child(odd) {
       animation-duration: 0.6s; /* So they look staggered */
-    }
-    
-    @keyframes come-in {
+}
+@keyframes come-in {
       to { transform: translateY(0); }
-    }
+}
+
+/* PAGE LOADER */
