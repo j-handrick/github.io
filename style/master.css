@@ -1,8 +1,7 @@
 
 body {
   background: linear-gradient(#fffefd 5%,#faf0e5);
-  scroll-behavior: smooth;
-  
+  scroll-behavior: smooth; 
 }
 
 /* NAVIGATION */
@@ -63,27 +62,47 @@ body {
 }
 
 /* HEADER */
-.skill-section {
+.header {
   height: 95vh;
   display: flex;
-  justify-content: space-between;
+  overflow: hidden;
+  cursor: crosshair;
+  z-index: 1;
+}
+.magic {
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 20rem;
+  height: 20rem;
+  background: center center no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+  z-index: 2;
 }
 
-.me-description {
-  text-align: center;
+.me-description1 {
+  font-size: 5em;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+  color: #0f0c0a;
+  line-height: 2em;
+  
+}
+
+.me-description2 {
+  font-size: 1.5em;
   font-weight: 200;
-  font-family: 'montserrat', "sans serif";
-  color: #3E2A14;
+  font-family: 'poppins', sans-serif;
+  color: #0f0c0a;
   line-height: 2em;
 }
-.me-description span {
-  font-family: "Playfair Display", serif;
-  font-weight: 600;
-}
+
 .multicolor {
   animation: colorchange 30s infinite alternate;
   -webkit-animation:colorchange 30s infinite alternate;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #01491d7e 50%);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 45%, #0f0c0a 45%);
+  font-weight: 500;
 }
 
 
@@ -129,6 +148,10 @@ body {
 }
 
 /* PROGRESS BARS */
+.skill-section {
+  height: 95vh;
+}
+
 .progress{
     height: 5px;
     margin-top: 10px;
@@ -228,7 +251,6 @@ body {
 }
 
 
-
 /* WEB SKILLS */
 .section-header {
   font-family: "Playfair Display", serif;
@@ -240,6 +262,11 @@ body {
   font-weight: 200;
   -webkit-animation:colorchange 30s infinite alternate;
   animation: colorchange 30s infinite alternate;
+}
+
+
+.web-hover:hover {
+
 }
 
 /*PROJECT CARDS*/
@@ -325,13 +352,13 @@ footer {
         color: #EBD6C9;
       }
       10% {
-        color: #0f0c0a;
+        color: #C15955;
       }
       20% {
         color: #6088B2;
       }
       30% {
-        color: #C15955;
+        color: #696969;
       }
       40% {
         color: #FDDEC3;
@@ -393,11 +420,11 @@ footer {
 
  /* MODULE SLIDE-IN */
 .come-in {
-      transform: translateY(300px);
-      animation: come-in 1s ease forwards;
+      transform: translateY(200px);
+      animation: come-in 0.8s ease forwards;
 }
 .come-in:nth-child(odd) {
-      animation-duration: 0.6s; /* So they look staggered */
+      animation-duration: 0.8s; /* So they look staggered */
 }
 @keyframes come-in {
       to { transform: translateY(0); }

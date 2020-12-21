@@ -8,7 +8,7 @@
   <title>Jake Handrick</title>
 </head>
 
-<body>
+<body data-spy='scroll' data-target=".header">
   <!-- NAVIGATION -->
   <nav role="navigation" class="navbar smart-scroll navbar-dark shadow-sm sticky-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,20 +45,48 @@
     </div>
   </nav>
 
-        <!-- HEADER SECTION -->
-      <div class='container-fluid skill-section overflow-auto align-self-center pt-4'>
+  <!-- HEADER SECTION -->
+     <div class='container-fluid pt-4 header' style="background-image: 'images/BackgroundMask5.png';">
         <div class="row mx-auto">
+          <div class="col-2"></div>
+          <div class="col mt-3 align-self-center">
+            <h1 class="me-description1"><span class=''>Hello!</span> </h1>
+            <p class="me-description2"> 
+              I'm a pragmatic <span class="multicolor">User Interface Designer</span> and <span class="multicolor">Developer</span>.
+              I help people <span class="multicolor">design</span>, <span class="multicolor">build</span>, and <span class="multicolor">optimize</span> the <span class="multicolor">wildest</span> of web products.</p>
+            
+              <a class='alert-light' href="#caseStudies">
+                <button type="button" class="btn btn-outline-dark mt-3 smooth-scroll">Jump to the Case Studies</button>
+              </a> 
+                  
+            </div>
+          
+          <div class='col-2'></div>
+        </div>
+      </div>
+    <!-- END HEADER -->
 
-          <div class="col-12 col-md-6 align-self-center mt-3">
-            <h1 class="me-description border-bottom">Hello!<br>I'm <span class="multicolor">Jake Handrick</span>.<br></h1>
-
-            <h2 class="me-description"> 
-              I'm a pragmatic <span class="multicolor">User Interface Designer</span> and <span class="multicolor">Developer</span>. <br>
-              I help people <span class="multicolor">design</span>, <span class="multicolor">build</span>, and <span class="multicolor">optimize</span> the <span class="multicolor">wildest</span> of web products.</h2>
+          <!-- ARROW SMOOTHSCROLL -->
+          <div id="dissapear" class="arrow bounce smooth-scroll">
+            <a class="fa fa-arrow-down fa-2x" href="#projectCards">
+              <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z" />
+              </svg>
+            </a>
           </div>
           
-          <div class="container col-12 col-md-6 skill-bars align-self-center">
-              <div class="col-12 progressWrap py-3 mx-2">
+    <!-- SKILL BARS -->
+      <div class='container-fluid skill-section overflow-auto align-self-center'>
+
+        <div class="row text-center pt-5 section-header">
+          <h2 class="col module">My skills</h2>
+        </div>
+
+        <div class="row mx-auto">
+          <div class="col-2"></div>
+
+          <div class="container-fluid col skill-bars align-self-center">
+              <div class="col progressWrap py-3 mx-2 module">
                 <span class="title" style="font-family: playfair display;">UI Design</span> <span class="title" style="float: right;">95%</span>
                 <div class="progress">
                   <div class="progress-bar-A" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="max-width: 95%">
@@ -66,7 +94,7 @@
                 </div>
               </div>
 
-              <div class="col-12 progressWrap py-3 mx-2">
+              <div class="col progressWrap py-3 mx-2 module">
                 <span class="title" style="font-family: playfair display;">HTML/CSS</span> <span class="title" style="float: right;">90%</span>
                 <div class="progress">
                   <div class="progress-bar-B" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="max-width: 90%">
@@ -74,7 +102,7 @@
                 </div>
               </div>
 
-              <div class="col-12 progressWrap py-3 mx-2">
+              <div class="col progressWrap py-3 mx-2 module">
                 <span class="title" style="font-family: playfair display;">React.js</span> <span class="title" style="float: right;">85%</span>
                 <div class="progress">
                   <div class="progress-bar-C" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%">
@@ -82,7 +110,7 @@
                 </div>
               </div>
 
-              <div class="col-12 progressWrap py-3 mx-2">
+              <div class="col progressWrap py-3 mx-2 module">
                 <span class="title" style="font-family: playfair display;">Vanilla JS</span> <span class="title" style="float: right;">80%</span>
                 <div class="progress">
                   <div class="progress-bar-D" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="max-width: 80%">
@@ -90,7 +118,7 @@
                 </div>
               </div>
 
-              <div class="col-12 progressWrap py-3 mx-2">
+              <div class="col progressWrap py-3 mx-2 module">
                 <span class="title" style="font-family: playfair display;">Wordpress</span> <span class="title" style="float: right;">90%</span>
                 <div class="progress">
                   <div class="progress-bar-E" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="max-width: 90%">
@@ -98,7 +126,7 @@
                 </div>
               </div>
 
-              <div class="col-12 progressWrap py-3 mx-2">
+              <div class="col progressWrap py-3 mx-2 module">
                 <span class="title" style="font-family: playfair display;">Impulsive Doodler</span> <span class="title" style="float: right;">99%</span>
                 <div class="progress">
                   <div class="progress-bar-F" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="max-width: 99%">
@@ -106,7 +134,7 @@
                 </div>
               </div>
 
-              <div class="col-12 progressWrap py-3 mx-2">
+              <div class="col progressWrap py-3 mx-2 module">
                 <span class="title" style="font-family: playfair display;">SEO Wizard</span> <span class="title" style="float: right;">85%</span>
                 <div class="progress">
                   <div class="progress-bar-G" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="max-width: 70%">
@@ -114,27 +142,17 @@
                 </div>
               </div>
             </div>
+
+            <div class="col-2"></div>
+          
           </div>
         </div>
- <!-- END HEADER -->
-   
-
-      <!-- ARROW SMOOTHSCROLL -->
-      <div id="dissapear" class="arrow bounce smooth-scroll">
-        <a class="fa fa-arrow-down fa-2x" href="#projectCards">
-          <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z" />
-          </svg>
-        </a>
-      </div>
-   
-
  
-<!-- WEBSITE SKILLS -->
+ <!-- WEBSITE SKILLS -->
   <div class="container-fluid web-skills">
     
     <div class="row text-center pt-5 section-header">
-      <h2 class="col module">My websites are</h2>
+      <h2 class="col module">My websites</h2>
     </div>
     
     <div class="row text-center py-5">
@@ -143,7 +161,7 @@
         loading='lazy'
         alt="Brain as a computer processor" 
         style='height: 8em; width: auto;' 
-        class="my-4">
+        class="my-4 web-hover">
         <h3 class="my-3">Fast</h3>
       </div>
       <div class="col-12 col-md-3 module">
@@ -170,9 +188,8 @@
     </div>
   </div>
 
-
-<!-- CASE STUDIES-->
-  <div class="container ">
+ <!-- CASE STUDIES-->
+  <div class="container" id="caseStudies">
 
     <div class="row text-center py-5 section-header">
       <h2 class="col module">Case Studies</h2>
@@ -254,7 +271,6 @@
       </div>
     </div>
   </footer>
-
 
     <!-- SCRIPT TAGS  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
