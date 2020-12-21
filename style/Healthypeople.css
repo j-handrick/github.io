@@ -1,7 +1,16 @@
 body {
-  background: #FFFEFD;
+  background-color: #FFFEFD;
   scroll-behavior: smooth;
+  transition: all .5s background-color;
 }
+/* .changeColor {
+  background-color: lightblue;
+}
+.changeColor2 {
+  background-color: #0f0c0a;
+} */
+
+
 
 .text-descrip {
   color: #008E06;
