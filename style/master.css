@@ -98,6 +98,7 @@ body {
   z-index: 10000000;
   color: #FFFEFD;
   -webkit-animation:colorchange 3s infinite alternate;
+  animation: colorchange 3s infinite alternate;
 }
 
 .arrow a:hover {
@@ -153,42 +154,42 @@ body {
     width: 0;
     background:#EBD6C9;
     -webkit-animation: progress 2.5s ease-in-out forwards;
-          animation: progress 2.5s ease-in-out forwards;
+    animation: progress 2.5s ease-in-out forwards;
 }
 .progress-bar-C {
     width: 0;
     background:#C15955;
     -webkit-animation: progress 2.5s ease-in-out forwards;
-          animation: progress 2.5s ease-in-out forwards;
+    animation: progress 2.5s ease-in-out forwards;
 }
 .progress-bar-D {
     width: 0;
     background:#6088B2;
     -webkit-animation: progress 2.5s ease-in-out forwards;
-          animation: progress 2.5s ease-in-out forwards;
+    animation: progress 2.5s ease-in-out forwards;
 }
 .progress-bar-E {
     width: 0;
     background:#696969;
     -webkit-animation: progress 2.5s ease-in-out forwards;
-          animation: progress 2.5s ease-in-out forwards;
+    animation: progress 2.5s ease-in-out forwards;
 }
 .progress-bar-F {
     width: 0;
     background:#ffc371;
     -webkit-animation: progress 2.5s ease-in-out forwards;
-          animation: progress 2.5s ease-in-out forwards;
+    animation: progress 2.5s ease-in-out forwards;
 }
 .progress-bar-G {
   width: 0;
   background: #793884;
   -webkit-animation: progress 2.5s ease-in-out forwards;
-        animation: progress 2.5s ease-in-out forwards;
+  animation: progress 2.5s ease-in-out forwards;
 }
 .progress-bar .title {
   opacity: 0;
   -webkit-animation: show 0.35s forwards ease-in-out 0.5s;
-          animation: show 0.35s forwards ease-in-out 0.5s;
+  animation: show 0.35s forwards ease-in-out 0.5s;
 }
 
 @-webkit-keyframes progress {
@@ -252,9 +253,7 @@ body {
 }
 
 
-.web-hover:hover {
 
-}
 
 /*PROJECT CARDS*/
 .HP:hover {
@@ -324,10 +323,7 @@ footer {
 
 
 /* MEDIA QUERIES */
-@media (min-width: 540px max-width: 992px) {
 
-
-}
 
 @media (max-width: 768px) {
 
