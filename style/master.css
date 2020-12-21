@@ -1,6 +1,6 @@
 
 body {
-  background: linear-gradient(#fffefd 5%,#faf0e5);
+  background: linear-gradient(#fffefd 5%,#faf0e5); 
   scroll-behavior: smooth; 
 }
 
@@ -65,20 +65,7 @@ body {
 .header {
   height: 95vh;
   display: flex;
-  overflow: hidden;
-  cursor: crosshair;
-  z-index: 1;
-}
-.magic {
-  position: absolute;
-  top: calc(50% - 10rem);
-  left: calc(50% - 10rem);
-  width: 20rem;
-  height: 20rem;
-  background: center center no-repeat fixed;
-  background-size: cover;
-  border-radius: 50%;
-  z-index: 2;
+  
 }
 
 .me-description1 {
