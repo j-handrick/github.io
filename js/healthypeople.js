@@ -86,6 +86,10 @@ $("#pop4").on("click", function() {
 
 $(window).on("scroll touchmove", function() {
 
+  if ($(document).scrollTop() >= $("#hero").position().top ) {
+    $('body').css('background', $("#hero").attr("data-color"));
+  };
+
   if ($(document).scrollTop() >= $("#WhatWhy").position().top - 300 ) {
     $('body').css('background', $("#WhatWhy").attr("data-color"));
   };
