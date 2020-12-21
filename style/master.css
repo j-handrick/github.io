@@ -74,7 +74,6 @@ body {
   font-family: 'Playfair Display', serif;
   color: #0f0c0a;
   line-height: 2em;
-  
 }
 
 .me-description2 {
@@ -88,7 +87,7 @@ body {
 .multicolor {
   animation: colorchange 30s infinite alternate;
   -webkit-animation:colorchange 30s infinite alternate;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 45%, #0f0c0a 45%);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 35%, #0f0c0a 35%);
   font-weight: 500;
 }
 
