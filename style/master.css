@@ -1,6 +1,6 @@
 
 body {
-  background: linear-gradient(#fffefd 5%,#faf0e5); 
+  background: linear-gradient(#fdfdfd 5%,#e7e7e7); 
   scroll-behavior: smooth; 
 }
 
@@ -73,15 +73,23 @@ body {
   font-weight: 600;
   font-family: 'Playfair Display', serif;
   color: #0f0c0a;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
 .me-description2 {
+  font-size: 3em;
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+  color: #0f0c0a;
+  line-height: 1.5em;
+}
+
+.me-description3 {
   font-size: 1.5em;
   font-weight: 200;
   font-family: 'poppins', sans-serif;
   color: #0f0c0a;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
 .multicolor {
@@ -301,7 +309,7 @@ i {
 
 /* FOOTER */
 footer {
-  background: linear-gradient(#faf0e5, #fffefd );
+  background: linear-gradient(#e7e7e7, #fdfdfd );
 }
 .contact {
   color: #0f0c0a;
