@@ -264,6 +264,7 @@ body {
 /*PROJECT CARDS*/
 .HP:hover {
   color: green;
+  box-shadow: #0f0c0a;
 }
 .OA:hover {
   color: orange;
