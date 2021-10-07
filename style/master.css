@@ -248,12 +248,12 @@ body {
 
 /* WEB SKILLS */
 .section-header {
-  font-family: "Playfair Display", serif;
+  font-family: 'hahmlet', 'Times New Roman', Times, serif;
   font-weight: 600;
 }
 
 .web-skills h3 {
-  font-family: "Montserrat", "sans serif";
+  font-family: 'hahmlet light', 'Times New Roman', Times, serif;
   font-weight: 200;
   -webkit-animation:colorchange 30s infinite alternate;
   animation: colorchange 30s infinite alternate;
