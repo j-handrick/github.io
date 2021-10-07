@@ -11,7 +11,7 @@ body {
 
 }
 .nav-link {
-  font-family: 'montserrat', serif;
+  font-family: 'hahmlet light', 'Times New Roman', Times, serif;
   font-weight: 200;
   color: #FFFEFD;
 }
@@ -23,13 +23,13 @@ body {
   color: #49A0B5;
 }
 .navbar-brand {
-  font-family: 'Playfair display';
+  font-family: 'hahmlet light', 'Times New Roman', Times, serif;
   color: #FFFEFD;
 }
 .dropdown-menu a {
     background-color: #0f0c0a;
     color: #FFFEFD;
-    font-family: 'montserrat', serif;
+    font-family: 'hahmlet light', 'Times New Roman', Times, serif;
     font-weight: 200;
 }
 .dropdown-menu a:hover {
