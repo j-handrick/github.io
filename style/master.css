@@ -325,7 +325,7 @@ footer {
 /* FOOTER_CTA */
 .CTA {
   font-style: regular;
-  font-family: "montserrat", sans-serif;
+  font-family: 'poppins', sans-serif;
   -webkit-animation:colorchange 30s infinite alternate;
   animation: colorchange 30s infinite alternate;
 }
