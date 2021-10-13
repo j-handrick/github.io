@@ -78,7 +78,7 @@ body {
 .me-description1 {
   font-size: 5em;
   font-weight: 600;
-  font-family: 'Playfair Display', serif;
+  font-family: 'hahmlet', 'Times New Roman', Times, serif;
   color: #0f0c0a;
   line-height: 1.5em;
 }
@@ -86,7 +86,7 @@ body {
 .me-description2 {
   font-size: 3em;
   font-weight: 500;
-  font-family: 'Playfair Display', serif;
+  font-family: 'hahmlet', 'Times New Roman', Times, serif;
   color: #0f0c0a;
   line-height: 1.5em;
 }
@@ -94,7 +94,7 @@ body {
 .me-description3 {
   font-size: 1.5em;
   font-weight: 200;
-  font-family: 'poppins', sans-serif;
+  font-family: 'montserrat', sans-serif;
   color: #0f0c0a;
   line-height: 1.5em;
 }
@@ -246,7 +246,7 @@ body {
 }
 .skill span{
     color: #939393;
-    font-family: 'arial';
+    font-family: 'montserrat', sans-serif;
 }
 .skill .progressWrap{
     padding: 1.2em;
@@ -325,7 +325,7 @@ footer {
 /* FOOTER_CTA */
 .CTA {
   font-style: regular;
-  font-family: 'poppins', sans-serif;
+  font-family: 'montserrat', sans-serif;
   -webkit-animation:colorchange 30s infinite alternate;
   animation: colorchange 30s infinite alternate;
 }
