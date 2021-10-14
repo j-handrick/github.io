@@ -99,7 +99,8 @@ body {
   line-height: 1.5em;
 }
 .me-description3:hover {
-  font-weight: 500em;
+  font-style: bold;
+  font-size: 1.5em;
   cursor: default;
 
 }
