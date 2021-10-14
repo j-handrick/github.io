@@ -99,11 +99,8 @@ body {
   line-height: 1.5em;
 }
 .me-description3:hover {
-  font-size: 1.8em;
-  font-weight: 400em;
-  font-family: 'montserrat', sans-serif;
-  color: #0f0c0a;
-  line-height: 1.5em;
+  font-weight: 500em;
+
 }
 .multicolor {
   animation: colorchange 30s infinite alternate;
