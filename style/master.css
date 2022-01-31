@@ -84,24 +84,19 @@ body {
 }
 
 .me-description2 {
-  font-size: 3em;
-  font-weight: 500;
-  font-family: 'hahmlet', 'Times New Roman', Times, serif;
-  color: #0f0c0a;
-  line-height: 1.5em;
-}
-
-.me-description3 {
   font-size: 1.5em;
   font-weight: bold;
   font-family: 'montserrat', sans-serif;
   color: #0f0c0a;
   line-height: 1.5em;
 }
-.me-description3:hover {
-  font-weight: bolder;
-  font-size: 1.5em;
-  cursor: default;
+
+.me-description3 {
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: 'montserrat', sans-serif;
+  color: #0f0c0a;
+  line-height: 1.5em;
 }
 
 /* BOUNCING ARROW */
