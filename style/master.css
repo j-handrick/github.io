@@ -93,24 +93,16 @@ body {
 
 .me-description3 {
   font-size: 1.5em;
-  font-weight: 200;
+  font-weight: bold;
   font-family: 'montserrat', sans-serif;
   color: #0f0c0a;
   line-height: 1.5em;
 }
 .me-description3:hover {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 1.5em;
   cursor: default;
-
 }
-.multicolor {
-  animation: colorchange 30s infinite alternate;
-  -webkit-animation:colorchange 30s infinite alternate;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 35%, #0f0c0a 35%);
-  font-weight: 500;
-}
-
 
 /* BOUNCING ARROW */
 .arrow a {
@@ -255,20 +247,6 @@ body {
 }
 .skill .progressWrap{
     padding: 1.2em;
-}
-
-
-/* WEB SKILLS */
-.section-header {
-  font-family: 'hahmlet', 'Times New Roman', Times, serif;
-  font-weight: 600;
-}
-
-.web-skills h3 {
-  font-family: 'hahmlet light', 'Times New Roman', Times, serif;
-  font-weight: 200;
-  -webkit-animation:colorchange 30s infinite alternate;
-  animation: colorchange 30s infinite alternate;
 }
 
 
